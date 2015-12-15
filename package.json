@@ -47,6 +47,7 @@
     "filesystem"
   ],
   "dependencies": {
+    "del": "^2.2.0",
     "meow": "^3.6.0",
     "update-notifier": "^0.6.0"
   },
