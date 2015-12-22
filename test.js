@@ -1,6 +1,7 @@
 import test from 'ava';
 import tempWrite from 'temp-write';
 import pathExists from 'path-exists';
+global.Promise = Promise;
 import execa from 'execa';
 
 test(async t => {

@@ -13,7 +13,7 @@
     "de": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10"
   },
   "scripts": {
     "test": "xo && ava"
@@ -57,8 +57,5 @@
     "path-exists": "^2.0.0",
     "temp-write": "^2.0.1",
     "xo": "*"
-  },
-  "xo": {
-    "esnext": true
   }
 }
