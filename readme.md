@@ -33,6 +33,12 @@ $ de --help
 
 It's `de` and not `del`, since `del` is already a builtin command on Windows.
 
+If preferred, a simple alias could fix this of course.
+
+```
+	alias del=de
+```
+
 
 ## Related
 
