@@ -1,6 +1,6 @@
 {
   "name": "del-cli",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Delete files and folders",
   "license": "MIT",
   "repository": "sindresorhus/del-cli",
