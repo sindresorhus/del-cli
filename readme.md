@@ -17,21 +17,21 @@ $ npm install --global del-cli
 ## Usage
 
 ```
-$ de --help
+$ del --help
 
   Usage
-    $ de <path|glob> [...]
+    $ del <path|glob> [...]
 
   Options
     -f, --force    Allow deleting the current working directory and outside
     -d, --dry-run  List what would be deleted instead of deleting
 
   Examples
-    $ de unicorn.png rainbow.png
-    $ de '*.png' '!unicorn.png'
+    $ del unicorn.png rainbow.png
+    $ del '*.png' '!unicorn.png'
 ```
 
-It's `de` and not `del`, since `del` is already a builtin command on Windows.
+Since `$ del` is already a builtin command on Windows you need to use `$ del-cli` there.
 
 
 ## Related

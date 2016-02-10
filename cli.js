@@ -6,15 +6,15 @@ var del = require('del');
 
 var cli = meow([
 	'Usage',
-	'  $ de <path|glob> [...]',
+	'  $ del <path|glob> [...]',
 	'',
 	'Options',
 	'  -f, --force    Allow deleting the current working directory and outside',
 	'  -d, --dry-run  List what would be deleted instead of deleting',
 	'',
 	'Examples',
-	'  $ de unicorn.png rainbow.png',
-	'  $ de \'*.png\' \'!unicorn.png\''
+	'  $ del unicorn.png rainbow.png',
+	'  $ del \'*.png\' \'!unicorn.png\''
 ], {
 	string: ['_'],
 	boolean: [
