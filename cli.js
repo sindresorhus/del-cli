@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-var updateNotifier = require('update-notifier');
 var meow = require('meow');
 var del = require('del');
 
@@ -11,6 +10,7 @@ var cli = meow([
 	'Options',
 	'  -f, --force    Allow deleting the current working directory and outside',
 	'  -d, --dry-run  List what would be deleted instead of deleting',
+	'  --skip-update  Do not check after updated version of this package',
 	'',
 	'Examples',
 	'  $ del unicorn.png rainbow.png',
@@ -19,7 +19,8 @@ var cli = meow([
 	string: ['_'],
 	boolean: [
 		'force',
-		'dry-run'
+		'dry-run',
+		'skip-update'
 	],
 	alias: {
 		f: 'force',
@@ -27,7 +28,11 @@ var cli = meow([
 	}
 });
 
-updateNotifier({pkg: cli.pkg}).notify();
+if (!cli.flags.skipUpdate) {
+	var updateNotifier = require('update-notifier');
+
+	updateNotifier({pkg: cli.pkg}).notify();
+}
 
 if (cli.input.length === 0) {
 	console.error('Specify at least one path');
