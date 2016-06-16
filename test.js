@@ -1,8 +1,9 @@
 import test from 'ava';
 import tempWrite from 'temp-write';
 import pathExists from 'path-exists';
+
 global.Promise = Promise;
-import execa from 'execa';
+const execa = require('execa');
 
 test(async t => {
 	const filename = tempWrite.sync('foo');
