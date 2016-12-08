@@ -50,11 +50,11 @@
   "dependencies": {
     "del": "^2.2.0",
     "meow": "^3.6.0",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^1.0.3"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.2.2",
+    "execa": "^0.5.0",
     "path-exists": "^2.0.0",
     "temp-write": "^2.0.1",
     "xo": "*"
