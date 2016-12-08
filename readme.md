@@ -33,6 +33,12 @@ $ del --help
 
 Since `$ del` is already a builtin command on Windows you need to use `$ del-cli` there.
 
+If preferred, a simple alias could fix this of course.
+
+```
+	alias del=de
+```
+
 
 ## Related
 
