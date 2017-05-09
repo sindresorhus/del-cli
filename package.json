@@ -1,7 +1,7 @@
 {
   "name": "del-cli",
   "version": "0.2.1",
-  "description": "Delete files and folders",
+  "description": "Delete files and directories - Cross-platform",
   "license": "MIT",
   "repository": "sindresorhus/del-cli",
   "author": {
@@ -14,7 +14,7 @@
     "del-cli": "cli.js"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -45,17 +45,18 @@
     "dir",
     "directory",
     "fs",
-    "filesystem"
+    "filesystem",
+    "cross-platform"
   ],
   "dependencies": {
     "del": "^2.2.0",
     "meow": "^3.6.0",
-    "update-notifier": "^1.0.3"
+    "update-notifier": "^2.1.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.2.2",
-    "temp-write": "^2.0.1",
-    "xo": "^0.16.0"
+    "execa": "^0.6.3",
+    "temp-write": "^3.2.0",
+    "xo": "*"
   }
 }

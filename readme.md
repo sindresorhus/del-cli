@@ -1,6 +1,6 @@
 # del-cli [![Build Status](https://travis-ci.org/sindresorhus/del-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/del-cli)
 
-> Delete files and folders
+> Delete files and directories
 
 Useful for use in build scripts and automated things.
 
@@ -20,7 +20,7 @@ $ npm install --global del-cli
 $ del --help
 
   Usage
-    $ del <path|glob> [...]
+    $ del <path|glob> …
 
   Options
     -f, --force    Allow deleting the current working directory and outside
