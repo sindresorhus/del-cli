@@ -37,9 +37,10 @@ Since `$ del` is already a builtin command on Windows you need to use `$ del-cli
 ## Related
 
 - [del](https://github.com/sindresorhus/del) - API for this module
-- [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and folders to the trash
+- [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and directories to the trash
+- [make-dir-cli](https://github.com/sindresorhus/make-dir-cli) - Make directories and their parents if needed
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
