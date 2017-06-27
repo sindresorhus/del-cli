@@ -49,13 +49,13 @@
     "cross-platform"
   ],
   "dependencies": {
-    "del": "^2.2.0",
+    "del": "^3.0.0",
     "meow": "^3.6.0",
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.6.3",
+    "execa": "^0.7.0",
     "temp-write": "^3.2.0",
     "xo": "*"
   }
