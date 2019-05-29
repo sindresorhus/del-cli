@@ -23,15 +23,15 @@ $ del --help
     $ del <path|glob> …
 
   Options
-    -f, --force    Allow deleting the current working directory and outside
-    -d, --dry-run  List what would be deleted instead of deleting
+    --force, -f    Allow deleting the current working directory and outside
+    --dry-run, -d  List what would be deleted instead of deleting
 
   Examples
     $ del unicorn.png rainbow.png
     $ del '*.png' '!unicorn.png'
 ```
 
-Since `$ del` is already a builtin command on Windows you need to use `$ del-cli` there.
+Since `$ del` is already a builtin command on Windows, you need to use `$ del-cli` there.
 
 
 ## Related
@@ -39,8 +39,3 @@ Since `$ del` is already a builtin command on Windows you need to use `$ del-cli
 - [del](https://github.com/sindresorhus/del) - API for this module
 - [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and directories to the trash
 - [make-dir-cli](https://github.com/sindresorhus/make-dir-cli) - Make directories and their parents if needed
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
