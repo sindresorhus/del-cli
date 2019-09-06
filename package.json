@@ -48,7 +48,7 @@
 		"cross-platform"
 	],
 	"dependencies": {
-		"del": "^4.1.1",
+		"del": "^5.1.0",
 		"meow": "^5.0.0"
 	},
 	"devDependencies": {
