@@ -13,7 +13,7 @@ const cli = meow(`
 
 	Examples
 	  $ del unicorn.png rainbow.png
-	  $ del '*.png' '!unicorn.png'
+	  $ del "*.png" "!unicorn.png"
 `, {
 	flags: {
 		force: {

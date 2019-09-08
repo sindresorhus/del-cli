@@ -28,7 +28,7 @@ $ del --help
 
   Examples
     $ del unicorn.png rainbow.png
-    $ del '*.png' '!unicorn.png'
+    $ del "*.png" "!unicorn.png"
 ```
 
 Since `$ del` is already a builtin command on Windows, you need to use `$ del-cli` there.
