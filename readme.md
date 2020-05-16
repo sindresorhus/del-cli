@@ -1,4 +1,4 @@
-# del-cli [![Build Status](https://travis-ci.org/sindresorhus/del-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/del-cli)
+# del-cli [![Build Status](https://travis-ci.com/sindresorhus/del-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/del-cli)
 
 > Delete files and directories
 
@@ -6,13 +6,11 @@ Useful for use in build scripts and automated things.
 
 *Note that this does permanent deletion. See [`trash-cli`](https://github.com/sindresorhus/trash-cli) for something safer.*
 
-
 ## Install
 
 ```
 $ npm install --global del-cli
 ```
-
 
 ## Usage
 
@@ -32,7 +30,6 @@ $ del --help
 ```
 
 Since `$ del` is already a builtin command on Windows, you need to use `$ del-cli` there.
-
 
 ## Related
 

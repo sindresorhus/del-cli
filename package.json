@@ -4,10 +4,11 @@
 	"description": "Delete files and directories - Cross-platform",
 	"license": "MIT",
 	"repository": "sindresorhus/del-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
 	"bin": {
 		"del": "cli.js",
