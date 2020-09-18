@@ -27,16 +27,16 @@ const cli = meow(`
 	}
 });
 
-if (cli.input.length === 0) {
-	console.error('Specify at least one path');
-	process.exit(1);
-}
-
 (async () => {
+	if (cli.input.length === 0) {
+		console.error('Specify at least one path');
+		process.exitCode = 1;
+		return;
+	}
+
 	const files = await del(cli.input, cli.flags);
 
 	if (cli.flags.dryRun) {
 		console.log(files.join('\n'));
 	}
 })();
-
