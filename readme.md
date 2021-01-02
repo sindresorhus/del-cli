@@ -1,4 +1,4 @@
-# del-cli [![Build Status](https://travis-ci.com/sindresorhus/del-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/del-cli)
+# del-cli
 
 > Delete files and directories
 
