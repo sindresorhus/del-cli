@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs';
 import test from 'ava';
 import tempWrite from 'temp-write';
 import execa from 'execa';

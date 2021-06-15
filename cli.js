@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const del = require('del');
+import meow from 'meow';
+import del from 'del';
 
 const cli = meow(`
 	Usage
@@ -15,6 +14,7 @@ const cli = meow(`
 	  $ del unicorn.png rainbow.png
 	  $ del "*.png" "!unicorn.png"
 `, {
+	importMeta: import.meta,
 	flags: {
 		force: {
 			type: 'boolean',

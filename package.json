@@ -10,12 +10,13 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
-		"del": "cli.js",
-		"del-cli": "cli.js"
+		"del": "./cli.js",
+		"del-cli": "./cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=12.20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -49,13 +50,13 @@
 		"cross-platform"
 	],
 	"dependencies": {
-		"del": "^5.1.0",
-		"meow": "^6.1.1"
+		"del": "^6.0.0",
+		"meow": "^10.0.1"
 	},
 	"devDependencies": {
-		"ava": "^2.3.0",
-		"execa": "^2.0.4",
-		"temp-write": "^4.0.0",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"temp-write": "^5.0.0",
+		"xo": "^0.40.2"
 	}
 }
