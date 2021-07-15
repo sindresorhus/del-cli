@@ -18,13 +18,13 @@ const cli = meow(`
 	flags: {
 		force: {
 			type: 'boolean',
-			alias: 'f'
+			alias: 'f',
 		},
 		dryRun: {
 			type: 'boolean',
-			alias: 'd'
-		}
-	}
+			alias: 'd',
+		},
+	},
 });
 
 (async () => {

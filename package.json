@@ -51,12 +51,12 @@
 	],
 	"dependencies": {
 		"del": "^6.0.0",
-		"meow": "^10.0.1"
+		"meow": "^10.1.0"
 	},
 	"devDependencies": {
 		"ava": "^3.15.0",
 		"execa": "^5.1.1",
 		"temp-write": "^5.0.0",
-		"xo": "^0.40.2"
+		"xo": "^0.41.0"
 	}
 }
