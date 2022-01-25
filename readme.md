@@ -6,12 +6,6 @@ Useful for use in build scripts and automated things.
 
 *Note that this does permanent deletion. See [`trash-cli`](https://github.com/sindresorhus/trash-cli) for something safer.*
 
-## Benefits over others
-
-Benefits over `rimraf` CLI: Supports globbing (even on Windows), safer by default as it doesn't allow deleting parent directories, has a dry-run mode.
-
-Benefits over `rm -rf`: Cross-platform, safer by default as it doesn't allow deleting parent directories, has a dry-run mode.
-
 ## Install
 
 ```
@@ -36,6 +30,12 @@ $ del --help
 ```
 
 > :warning: **Windows users**: Since `$ del` is already a builtin command on Windows, you need to use `$ del-cli` there.
+
+## Comparison
+
+Benefits over `rimraf` CLI: Supports globbing (even on Windows), safer by default as it doesn't allow deleting parent directories, and has a dry-run mode.
+
+Benefits over `rm -rf`: Cross-platform, safer by default as it doesn't allow deleting parent directories, and has a dry-run mode.
 
 ## Related
 
