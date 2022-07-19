@@ -8,8 +8,8 @@ Useful for use in build scripts and automated things.
 
 ## Install
 
-```
-$ npm install --global del-cli
+```sh
+npm install --global del-cli
 ```
 
 ## Usage

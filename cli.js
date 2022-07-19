@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+import process from 'node:process';
 import meow from 'meow';
-import del from 'del';
+import {deleteAsync} from 'del';
 
 const cli = meow(`
 	Usage
@@ -27,16 +28,13 @@ const cli = meow(`
 	},
 });
 
-(async () => {
-	if (cli.input.length === 0) {
-		console.error('Specify at least one path');
-		process.exitCode = 1;
-		return;
-	}
-
-	const files = await del(cli.input, cli.flags);
+if (cli.input.length === 0) {
+	console.error('Specify at least one path');
+	process.exitCode = 1;
+} else {
+	const files = await deleteAsync(cli.input, cli.flags);
 
 	if (cli.flags.dryRun) {
 		console.log(files.join('\n'));
 	}
-})();
+}
