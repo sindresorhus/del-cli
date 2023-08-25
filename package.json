@@ -12,8 +12,8 @@
 	},
 	"type": "module",
 	"bin": {
-		"del": "./cli.js",
-		"del-cli": "./cli.js"
+		"del-cli": "./cli.js",
+		"del": "./cli.js"
 	},
 	"engines": {
 		"node": ">=14.16"
