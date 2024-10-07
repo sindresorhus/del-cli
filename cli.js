@@ -28,15 +28,15 @@ const cli = meow(`
 	flags: {
 		force: {
 			type: 'boolean',
-			alias: 'f',
+			shortFlag: 'f',
 		},
 		dryRun: {
 			type: 'boolean',
-			alias: 'd',
+			shortFlag: 'd',
 		},
 		verbose: {
 			type: 'boolean',
-			alias: 'v',
+			shortFlag: 'v',
 		},
 	},
 });

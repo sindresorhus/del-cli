@@ -40,6 +40,6 @@ Benefits over `rm -rf`: Cross-platform, safer by default as it doesn't allow del
 
 ## Related
 
-- [del](https://github.com/sindresorhus/del) - API for this module
+- [del](https://github.com/sindresorhus/del) - API for this package
 - [trash-cli](https://github.com/sindresorhus/trash-cli) - Move files and directories to the trash
 - [make-dir-cli](https://github.com/sindresorhus/make-dir-cli) - Make directories and their parents if needed
