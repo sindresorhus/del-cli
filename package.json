@@ -5,11 +5,7 @@
 	"license": "MIT",
 	"repository": "sindresorhus/del-cli",
 	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
+	"author": "Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)",
 	"type": "module",
 	"bin": {
 		"del-cli": "./cli.js",
@@ -17,13 +13,14 @@
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=18"
+		"node": ">=22"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && node --test"
 	},
 	"files": [
-		"cli.js"
+		"*.js",
+		"!test.js"
 	],
 	"keywords": [
 		"cli-app",
@@ -51,14 +48,13 @@
 		"cross-platform"
 	],
 	"dependencies": {
-		"del": "^8.0.1",
-		"meow": "^14.0.0",
+		"del": "^9.0.1",
+		"meow": "^14.1.0",
 		"presentable-error": "^0.0.1"
 	},
 	"devDependencies": {
-		"ava": "^6.4.1",
-		"execa": "^9.6.0",
-		"temp-write": "^6.0.0",
-		"xo": "^1.2.2"
+		"execa": "^10.1.0",
+		"temp-write": "^6.0.1",
+		"xo": "^5.0.1"
 	}
 }

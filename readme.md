@@ -14,7 +14,7 @@ npm install --global del-cli
 
 ## Usage
 
-```
+```text
 $ del --help
 
   Usage
