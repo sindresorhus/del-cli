@@ -1,6 +1,6 @@
 {
 	"name": "del-cli",
-	"version": "7.0.0",
+	"version": "8.0.0",
 	"description": "Delete files and directories - Cross-platform",
 	"license": "MIT",
 	"repository": "sindresorhus/del-cli",
