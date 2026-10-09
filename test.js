@@ -12,6 +12,12 @@ test('main', async () => {
 	assert.ok(!fs.existsSync(filename));
 });
 
+test('del bin', async () => {
+	const filename = tempWrite.sync('foo');
+	await execa('./del.js', ['--force', filename]);
+	assert.ok(!fs.existsSync(filename));
+});
+
 test('verbose file exists', async () => {
 	const filename = tempWrite.sync('foo');
 	const {stdout} = await execa('./cli.js', ['--force', '--verbose', filename]);
